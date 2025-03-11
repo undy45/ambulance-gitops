@@ -4,7 +4,7 @@ metadata:
   name: ee-ambulance-ufe-content
 spec:
   microFrontend: ee-ambulance-ufe
-  element: ee-ambulance-wl-list
+  element: ee-ambulance-wl-app
   displayRules:
     - allOf:
         - context-name: main-content
