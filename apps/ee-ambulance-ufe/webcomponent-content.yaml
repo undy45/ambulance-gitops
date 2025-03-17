@@ -5,6 +5,11 @@ metadata:
 spec:
   microFrontend: ee-ambulance-ufe
   element: ee-ambulance-wl-app
+  attributes:
+    - name: api-base
+      value: http://localhost:5000/api
+    - name: ambulance-id
+      value: bobulova
   displayRules:
     - allOf:
         - context-name: main-content
